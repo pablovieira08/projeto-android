@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #84e1ad;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'idroid', serif;
+    color: #23623F;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #DAF3E5, white);
+    padding: 3px 10px;
+}
+
+p {
+    text-indent: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    text-align: center;
+    margin: 0;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+header > p {
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to bottom, #37c677, #1a5c38);
+    text-align: center;
+    padding-bottom: 12px;
+    box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.274);
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    color: #C5EBD6;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 10px 10px 17px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.342);
+}
+
+main img {
+    min-width: 300px;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+div#video {
+    background-color: #1A5C38;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 50%;
+}
+
+div#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+h3 {
+    background-color: #2FA866;
+    color: white;
+    padding: 8px;
+    margin-bottom: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#extra {
+    background-color: #C5EBD6;
+    padding: 10px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+ul {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0;
+}
+
+.negrito {
+    font-weight: bold;
+}
