@@ -130,6 +130,16 @@ footer > p {
     margin: 0;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 .negrito {
     font-weight: bold;
 }
